@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  padding-top:25px;
+  
+}
+.header-left
+{
+
+  margin-left: 40px;
+  color: rgba(204, 214, 246);
+  font-weight: Courier;
+}
+.menu-item
+{
+    display: flex;
+  
+}
+
+@media (max-width: 480px) {
+
+ .menu-item
+ {
+    display: none;
+    overflow-x: hidden;
+ }
+
+}
+

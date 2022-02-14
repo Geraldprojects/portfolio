@@ -1,0 +1,26 @@
+.MenuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+
+  cursor: pointer;
+  color: rgba(204, 214, 246);
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif
+}
+.MenuTitle {
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 0;
+}
+.MenuTitle:hover {
+  transition: 0.3s ease-in-out;
+  color: rgba(100, 255, 218);
+}
+.menuIcon {
+  object-fit: contain;
+  height: 15px !important;
+  width: 15px !important;
+  color: rgba(100, 255, 218);
+}
+
