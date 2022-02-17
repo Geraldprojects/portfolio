@@ -1,11 +1,11 @@
-import React from "react";
 import "../styles/Header.css";
 import { MenuItems } from "./MenuItems";
 import FeedIcon from "@mui/icons-material/Feed";
-import WorkIcon from '@mui/icons-material/Work';
-import AccountTreeIcon from '@mui/icons-material/AccountTree';
-import ContactMailIcon from '@mui/icons-material/ContactMail';
-import TopicIcon from '@mui/icons-material/Topic';
+import WorkIcon from "@mui/icons-material/Work";
+import AccountTreeIcon from "@mui/icons-material/AccountTree";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
+import TopicIcon from "@mui/icons-material/Topic";
+
 export const Header = () => {
   return (
     <div className="header">

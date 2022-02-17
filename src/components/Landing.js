@@ -1,11 +1,11 @@
 import { useCallback, useState, useEffect } from "react";
 import "../styles/Landing.css";
 const skills = [
-  "Front-end Developement",
-  "Back-end Development",
+  "Frontend Developement",
+  "Backend  Development",
   "Desktop Development",
   "Database Development",
-  "Fullstack-development",
+  "Fullstack Development",
 ];
 export const Landing = () => {
   const [skill, setSkill] = useState("");
@@ -24,10 +24,13 @@ export const Landing = () => {
       <div className="intro-me">
         <p>Hey, my name is</p>
         <h1>Gerald Mpyana.</h1>
-        <h2>I specialize in {skill} </h2>
+        <h2>I am a Software Developer </h2>
       </div>
       <div className="background-description">
-        <p>I am Software Developer based in South Africa(JHB),</p>
+        <p>I specialize in {skill} </p>
+      </div>
+      <div>
+        <button>Lets Collaborate!</button> 
       </div>
     </div>
   );
