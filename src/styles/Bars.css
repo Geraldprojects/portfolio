@@ -1,0 +1,34 @@
+.leftbar {
+  display: inline-flex;
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  z-index: 10;
+ 
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-icons {
+
+  color: rgb(221, 228, 250);
+  height: 25%;
+  width: 13%;
+  cursor: pointer;
+}
+.left-icons:hover {
+  color: rgba(100, 255, 218);
+  transform:translateY(-3px);
+  width: 12%;
+  transition: ease-in-out;
+  
+}
+
+span {
+  border-left: 1px solid rgb(221, 228, 250);
+  height: 100%;
+  width: 1px;
+}
